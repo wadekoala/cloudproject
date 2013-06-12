@@ -1,0 +1,36 @@
+html, body {
+    text-align: center;
+    overflow-x: hidden;
+    color:#000;
+    font-size:12px;
+    font-weight:400;
+    font-family:"Arial","Helvetica","sans-serif";
+    text-align:center;
+    height:100%; margin:0; padding:0; 
+    background:#f3f0f0 url("body_bg.gif") repeat left top;    
+}
+
+.container{
+  width:960px;
+  position:relative;
+  text-align: center;
+  margin:0 auto;
+  background:#fff;
+  border-left:1px solid #cac8c8;
+  border-right:1px solid #cac8c8;
+}
+.header{
+    height: 80px;
+    background-image:url("top.jpg");
+    background-repeat:no-repeat;
+}
+.content {
+    min-height: 450px;
+    padding: 30px;
+}
+.footer{
+  height: 15px;
+  position:relative;
+  background-color: #A9E1FB;
+  padding: 5px;
+}
